@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cake</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+  <button class="search-btn" data-bs-toggle="collapse" href="#multiCollapseExample1" aria-expanded="false" aria-controls="multiCollapseExample1"><svg role="presentation" width="80" height="80" viewBox="0 0 65 65" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M16.1523 48.1638L27.4577 36.8613" stroke="black" stroke-width="1.0" stroke-linecap="square"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M44.6301 19.5989C49.2698 24.2386 49.2698 31.7618 44.6301 36.4015C39.9903 41.0413 32.4672 41.0413 27.8274 36.4015C23.1877 31.7618 23.1877 24.2386 27.8274 19.5989C32.4672 14.9592 39.9903 14.9592 44.6301 19.5989Z" stroke="black" stroke-width="1.0"></path><path d="M40.6838 24.9392C42.6089 26.8643 42.5674 30.0269 40.5911 32.0032" stroke="black" stroke-width="1.0"></path></svg></button>
+  <nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Переключатель навигации">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-center flex-column mt-5" id="navbarSupportedContent">
+        <a class="nav-link active" aria-current="page" href="index.html"><img src="./images/logo.png" alt=""></a>
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <button class="nav-link position-relative">
+              МЕНЮ
+            </button>
+            <ul class="bg-white list-unstyled text-center position-absolute z-2 flex-column">
+              <li><a href="#">СЛАДКИЕ <br> ПИРОГИ</a></li>
+              <li><a href="#">СЫТНЫЕ <br> ПИРОГИ</a></li>
+              <li><a href="#">ЗАКУСОЧНЫЕ <br> ПИРОГИ</a></li>
+              <li><a href="#">ДЕСЕРТЫ</a></li>
+              <li><a href="#">ТОРТЫ НА <br> ЗАКАЗ</a></li>
+              <li><a href="#">НАПИТКИ</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="o-nas.html">О КОМПАНИИ</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="delivery.html">ДОСТАВКА</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="contacts.html">КОНТАКТЫ</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <section class="preview mx-auto d-flex justify-content-center">
+    <div class="blur-bg"></div>
+    <div class="text-start container-sm d-flex align-items-end">
+        <p class="preview-text">Попробуйте новый сорт кофе в <br> фирменных кафе города Псков.</p>
+    </div>
+  </section>
+  <section>
+    <div class="container">
+      <div class="text-center phone-section">
+        <p class="phone-section-title">Вы можете сделать заказ прямо <br> сейчас, позвонив по телефонам:</p>
+        <p class="phone-numbers"><a href="tel:+78112701157">+7 (8112) 70 11 57<br></a> <a href="tel:+79009920202"> 8-900-992-02-02</a></p>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="callback-box">
+      <div class="callback-text">
+        <p>Производство и <br> самовывоз по адресу: г. Псков, ул. Леона Поземского д.122 Б (здание ресурсного центра).</p>
+        <p>Режим работы: ежедневно с 9-00 до 20-00.</p>
+        <p class="sub-info">Следите за нами в социальных сетях:</p>
+        <a href="#">
+          <svg role="presentation" width="25px" height="25px" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M53.7512 76.4147C25.0516 76.4147 8.68207 56.7395 8 24H22.376C22.8482 48.03 33.4463 58.2086 41.8411 60.3073V24H55.3782V44.7245C63.668 43.8326 72.3765 34.3885 75.3146 24H88.8514C86.5954 36.802 77.1513 46.2461 70.4355 50.1287C77.1513 53.2767 87.9076 61.5141 92 76.4147H77.0988C73.8983 66.446 65.9241 58.7333 55.3782 57.684V76.4147H53.7512Z" fill="#000000"></path></svg>
+        </a>
+      </div>
+      <div class="callback-form">
+        <form action="#">
+          <input class="form-input" type="text" name="email" placeholder="Ваш e-mail">
+          <input class="form-input" type="text" name="name" placeholder="Имя">
+          <textarea name="Textarea" class="form-data" name="other-data" placeholder="Напишите пару строк"></textarea>
+          <button class="form-btn" id="form-btn">Отправить</button>
+        </form>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="container text-center">
+      <div class="all-cafes">
+        <h1>Фирменные кафе Пирогов</h1>
+        <div class="cafes-list">
+          <div class="cafe-card">
+            <h2>Кафе Невский</h2>
+            <img src="./images/_2.jpg" alt="">
+            <div class="card-info">
+              <p class="card-subtitle"><span>г. Псков ул. Леона Поземского, д. <br> 123Д</span> <br> <br> ТК "НЕВСКИЙ" <br> <br> 89009993666 <br>
+                Ежедневно с 10.00 до 21.00</p>
+            </div>
+          </div>
+          <div class="cafe-card">
+            <h2>Кафе Автовокзал</h2>
+            <img src="./images/photo.jpg" alt="">
+            <div class="card-info">
+              <p class="card-subtitle"><span>г. Псков ул. Вокзальная, д 21</span> <br> ( в здании автовокзала) <br> <br> 89517502299 <br>
+                Ежедневно с 7.00 до 19.00</p>
+            </div>
+          </div>
+          <div class="cafe-card">
+            <h2>Кафе Акваполис</h2>
+            <img src="./images/photo (1).jpg" alt="">
+            <div class="card-info">
+              <p class="card-subtitle"><span>Псков ул. Кузбасской Дивизии, д. 19</span> <br> ТРК "АКВАПОЛИС", фуд-корт, 2этаж <br> <br> 89602211171 <br>
+                Ежедневно с 10.00 до 21.00</p>
+              <p></p>
+            </div>
+          </div>
+          <div class="cafe-card">
+            <h2>Кафе Фьорд Плаза</h2>
+            <img src="./images/__2.jpg" alt="">
+            <div class="card-info">
+              <p class="card-subtitle"><span>д. Борисовичи ул. Завеличенская, д. <br> 23<br></span> ТРЦ " Fjord Plaza" фуд-корд, 2 этаж <br> <br> 89517527227<br>
+                Ежедневно с 10.00 до 21.00</p>
+              <p></p>
+            </div>
+          </div>
+          <div class="cafe-card">
+            <h2>Кафе на Профсоюзной</h2>
+            <img src="./images/photo (2).jpg" alt="">
+            <div class="card-info">
+              <p class="card-subtitle"><span>Псков Профсоюзная, д. 3</span> <br> <br> 89517550666 <br>
+                Ежедневно с 9.00 до 21.00</p>
+            </div>
+          </div>
+          <div class="cafe-card">
+            <h2>Кафе Пик</h2>
+            <img src="./images/_2.jpg.webp" alt="">
+            <div class="card-info">
+              <p class="card-subtitle"><span>Псков ул. Юбилейная. д. 68 <br> ТК "ПИК 60" 1этаж, центральный <br> вход</span> <br> <br> 89210020706<br>
+                Ежедневно с 10.00 до 21.00</p>
+            </div>
+          </div>
+          <div class="cafe-card">
+            <h2>Кафе Максимус</h2>
+            <img src="./images/photo (3).jpg" alt="">
+            <div class="card-info">
+              <p class="card-subtitle"><span>Псков Октябрьский пр-т, д. 54</span> <br> ТК "МАКСИМУС", 1этаж, центральный вход <br> <br> 89319027778<br>
+                Ежедневно с 10.00 до 21.00</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="care-section">
+    <div class="container">
+      <div class="care-section-content">
+        <p>Заказ каждого клиента для нас - приоритетный. Наш администратор с удовольствием поможет Вам в выборе пирога, ответит на интересующие Вас вопросы.</p>
+        <p>Мы следим за качеством сервиса и качеством нашей продукции, поэтому наши пироги такие вкусные. Если Вам не понравился пирог или доставка пирогов заняла слишком много времени – обязательно сообщите нам, мы примем все возможные меры, чтобы Ваш следующий заказ оставил только приятные впечатления.</p>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <div class="footer-top">
+      <div class="container">
+        <div class="footer-top-content">
+          <h1>Контакты</h1>
+          <p>Заказы принимаются до 18:00</p>
+          <p>Доставляем в течение 2 часов!</p>
+          <div class="cafe-contacts">
+            <div class="cafe-contact-card">
+              <img src="./images/Layer_13.svg" alt="" class="cafe-contacts-image">
+              <h4 class="cafe-contact-title">Контакты</h4>
+              <p class="cafe-contact-text">+7 (8112) 70 11 57 <br>
+                8 900 992 02 02</p>
+            </div>
+            <div class="cafe-contact-card">
+              <img src="./images/basic_geolocalize01.svg" alt="" class="cafe-contacts-image">
+              <h4 class="cafe-contact-title">Адрес</h4>
+              <p class="cafe-contact-text">Производство и самовывоз: г. Псков, ул. <br> Леона Поземского д.122 Б (здание <br> ресурсного центра).</p>
+            </div>
+            <div class="cafe-contact-card">
+              <img src="./images/8yo_hours.svg" alt="" class="cafe-contacts-image">
+              <h4 class="cafe-contact-title">Время работы</h4>
+              <p class="cafe-contact-text">Ежедневно <br>
+                с 09.00 до 20.00</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="footer-bottom-box">
+        <a aria-current="page" href="index.html"><img src="./images/logo.png" class="logo" alt=""></a>
+      </div>
+      <div class="footer-bottom-box">
+        <p>© 2024 Все права защищены</p>
+      <p>ООО "ФИРМЕННАЯ ПЕКАРНЯ "ПИРОГОВ" <br>
+        ИНН 6027203922 <br>
+        ОГРН 1216000000567</p>
+      <p>Разработка сайта и реклама - <a href="">Дёмин Тимур</a></p>
+      </div>
+      <div class="footer-bottom-box">
+        <a href="">
+          <svg class="t-sociallinks__svg" role="presentation" width="30px" height="30px" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M50 100c27.614 0 50-22.386 50-50S77.614 0 50 0 0 22.386 0 50s22.386 50 50 50ZM25 34c.406 19.488 10.15 31.2 27.233 31.2h.968V54.05c6.278.625 11.024 5.216 12.93 11.15H75c-2.436-8.87-8.838-13.773-12.836-15.647C66.162 47.242 71.783 41.62 73.126 34h-8.058c-1.749 6.184-6.932 11.805-11.867 12.336V34h-8.057v21.611C40.147 54.362 33.838 48.304 33.556 34H25Z" fill="#0077ff"></path></svg>
+        </a>
+      </div>
+    </div>
+  </footer>
+  <script src="contact.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js" integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa" crossorigin="anonymous"></script>
+</body>
+</html>

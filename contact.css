@@ -1,0 +1,387 @@
+.preview {
+    height: 70vh;
+    background-image: url("images/contact-bg.jpg");
+    background-size: cover;
+    background-position: center -467px;
+    position: relative;
+}
+
+.search-btn {
+    width: 80px;
+    height: 80px;
+    position: fixed;
+    right: 50px;
+    top: 300px;
+    border-radius: 50%;
+    border: none;
+    background-color: rgba(255, 255, 255, .8);
+    z-index: 2;
+    transition: transform 0.2s;
+}
+
+.search-btn svg {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.search-btn:hover {
+    transform: scale(1.1);
+}
+
+.navbar-nav {
+    gap: 29px;
+}
+
+.navbar-nav > .nav-item .nav-link {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.nav-item .nav-link.active {
+    color: #ffffff;
+    opacity: .7;
+    height: 75%;
+    position: relative;
+    padding-bottom: 0;
+}
+
+.nav-item .nav-link.active::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 100%;
+    bottom: -0px;
+    border-bottom: 1px solid #ffffff;
+}
+
+.blur-bg {
+    background-image: url("images/99-films-yr9l_xQPDL0.png");
+    background-size: cover;
+    background-position: center -467px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    animation: hide 0.7s 0.3s linear 1;
+    animation-fill-mode: forwards;
+}
+
+section {
+    background-color: transparent !important;
+}
+
+.preview::before {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    content: "";
+    position: absolute;
+    background-image: linear-gradient(to bottom, rgba(41, 27, 0, 0), rgba(41, 27, 0, 0.3));
+}
+
+.preview-text {
+    color: #fff;
+    opacity: 0;
+    font-size: 41px;
+    padding: 0 70px;
+    padding-bottom: 80px;
+    line-height: 50px;
+    letter-spacing: 1px;
+    z-index: 1;
+    animation: show 2.7s 0.3s linear 1;
+    animation-fill-mode: forwards;
+}
+
+.phone-section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.phone-section-title {
+    font-size: 30px;
+    font-weight: 500;
+    color: black;
+    margin-bottom: 45px;
+    letter-spacing: 0.2px;
+}
+
+.phone-numbers a {
+    color: black;
+    text-decoration: none;
+}
+
+.phone-numbers {
+    margin-top: 25px;
+    margin-bottom: -31px;
+    font-size: 30px;
+    font-weight: 100;
+}
+
+.phone-numbers a:first-child {
+    color: black;
+    font-weight: 500;
+}
+
+.callback-box {
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.callback-form {
+    width: 460px;
+    line-height: 44px;
+}
+
+.callback-text {
+    width: 460px;
+    line-height: 44.2px;
+}
+
+.form-input {
+    width: 100%;
+    height: 58px;
+    outline: none;
+    margin-bottom: 25px;
+    font-size: 16px;
+    font-weight: 300;
+    border: 1px solid #c7c7c7;
+    padding: 29px 20px;
+}
+
+textarea {
+    width: 100%;
+    height: 102px;
+    font-size: 16px;
+    font-weight: 300;
+    padding: 5px 20px;
+    border: 1px solid #c7c7c7;
+    outline: none;
+}
+
+.form-input:focus::-webkit-input-placeholder {
+    color: transparent;
+}
+
+.sub-info {
+    margin-top: 30px;
+    margin-bottom: 5px;
+    color: #7a7a7a;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.callback-text p:first-child {
+    margin-bottom: 40px;
+}
+
+.callback-form button {
+    background-color: #c7a977;
+    color: white;
+    border: none;
+    height: 60px;
+    font-size: 16px;
+    border-radius: 30px;
+    padding: 0 60px;
+    margin-top: 20px;
+}
+
+.callback-form button:hover {
+    background-color: #c7a977;
+}
+
+.cafes-list {
+    text-align: left;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(3, 360px);
+    gap: 70px 40px;
+}
+
+.cafe-card {
+    font-size: 26px;
+    width: 400px;
+}
+
+.cafe-card img {
+    width: 360px;
+    height: 270px;
+    object-fit: cover;
+    margin-bottom: 6px;
+}
+
+.all-cafes {
+    padding-bottom: 90px;
+}
+
+.all-cafes h1 {
+    font-size: 42px;
+    margin-top: 150px;
+    margin-bottom: 90px;
+}
+
+.cafe-card h2 {
+    font-size: 26px;
+    margin-bottom: 20px;
+}
+
+.cafe-card .card-subtitle {
+    font-size: 14px;
+    margin-top: 19px;
+    line-height: 1.55;
+}
+
+.cafe-card .card-subtitle span {
+    font-size: 18px;
+}
+
+.cafe-card:first-child .card-subtitle {
+    margin-bottom: 20px;
+}
+
+.cafe-card p {
+    font-size: 14px;
+}
+
+.care-section {
+    background-color: #c7a977 !important;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 100;
+}
+
+.care-section-content {
+    padding-top: 75px;
+    padding-left: 168px;
+    padding-right: 168px;
+    padding-bottom: 100px;
+    line-height: 1.45;
+}
+
+.care-section-content p:first-child {
+    margin-bottom: 42px;
+}
+
+footer {
+    background-color: #54392e;
+}
+
+.footer-top-content {
+    text-align: center;
+    color: #c7a977;
+    padding-bottom: 150px;
+}
+
+.footer-top-content h1 {
+    padding-top: 160px;
+    padding-bottom: 35px;
+    font-size: 56px;
+    font-weight: 600;
+}
+
+.footer-top-content p {
+    font-weight: 300;
+    font-size: 24px;
+    margin-bottom: 0;
+}
+
+.cafe-contacts-image {
+    width: 60px;
+    margin-bottom: 35px;
+}
+
+.cafe-contacts {
+    margin-top: 85px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.cafe-contact-card {
+    max-width: 360px;
+    width: 100%;
+}
+
+.cafe-contacts .cafe-contact-text {
+    font-size: 14px;
+    line-height: 1.55;
+}
+
+.cafe-contact-title {
+    margin-bottom: 22px;
+}
+
+.footer-bottom {
+    padding: 26px 40px;
+    background-color: black;
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-bottom-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+
+.footer-bottom-box:first-child {
+    width: 200px;
+    align-items: start;
+}
+
+.footer-bottom-box:last-child {
+    width: 200px;
+    align-items: end;
+}
+
+.footer-bottom a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-bottom a:last-child {
+    text-decoration: underline;
+}
+
+.footer-bottom .logo {
+    max-width: 150px;
+}
+
+.error {
+    border-color: red;
+    color: red;
+}
+
+.form-btn:hover {
+    background-color: #9c855d !important;
+}
+
+.form-btn:active {
+    background-color: #7e6b4a !important;
+}
+
+@keyframes hide {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes show {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
